@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <meta name="description" content="This is my portfolio.">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="deer_icon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+
+    <title>Rikuto Kanzaki - Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navigation">
+            <a href="">Home</a>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="introduction">
+        <h1 class="name">Rikuto Kanzaki</h1>
+    </section>
+    
+    <section id="about">
+        <h2 class="about-title">About</h2>
+        <div id = "about-items">
+            <div class="profile-icon">
+                <a href="https://github.com/sleekbeats">
+                    <div class="icon-background">
+                        <img src="deer_icon.jpg" class="icon" alt="icon-bird">
+                        <img src="github-mark-white.png" id="github-cat" class="icon" alt="icon-github">
+                        <p class="account-name">@sleekbeats</p>
+                        <p class="move-text">Githubへ</p>
+                    </div>
+                </a>
+            </div>
+            <div class="profile-text-flame">
+                <p class="profile-text">
+                    大宮の大学に通う大学2年生。主に機械・情報分野を広く学んでいます。
+                    <br>
+                    大学に入ってからコーディングを学び、スクレイピングやwebサイト制作、
+                    <br>
+                    物理シミュレーションなど様々な分野に日々挑戦し続けています！
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="work">
+        <div class="work-title-wrapper">
+            <h2 class="work-title">Work</h2>
+        </div>
+        <div id="work-items">
+
+            <div id="work-item-1">
+                <div class="work-item-background">
+                    <div class="item-title">Python</div>
+                    <img src="python-logo.png" class="coming-soon" alt="coming_soon">
+                    <div class="item-text-flame">
+                        <div class="explain-text">Pythonのライブラリを使ってスクレイピングを行い、Excelの操作やテキストの取得を自動化し、実行ファイル化しています。</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="work-item-2">
+                <div class="work-item-background">
+                    <div class="item-title">C language</div>
+                    <img src="binary-star.gif" class="coming-soon" alt="coming_soon">
+                    <div class="item-text-flame">
+                        <div class="explain-text">C言語で物理シミュレーションを行っています。惑星の連星運動や、空気抵抗を考慮した斜方投射の最適角度など、gnuplotによって視覚化します。</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="work-item-3">
+                <div class="work-item-background">
+                    <div class="item-title">After Effects</div>
+                    <img src="text-jump.gif" class="coming-soon" alt="coming_soon">
+                    <div class="item-text-flame">
+                        <div class="explain-text">動画素材としてよく用いられるアイキャッチやテキストアニメーションを、PhotoshopやAfter Effectsを組み合わせながら作成しています。</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="work-item-4">
+                <div class="work-item-background">
+                    <div class="item-title">coming soon...</div>
+                    <img src="coming-soon.png" class="coming-soon" alt="coming_soon">
+                    <div class="item-text-flame">
+                        <div class="explain-text">coming soon...</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2 class="contact-title">Contact</h2>
+        <div class="contact-background">
+            <div class="form">
+                <div class="form-item">
+                    <p class="form-item-label">
+                        <span class="form-item-label-required">必須</span>会社名
+                    </p>
+                    <input type="text" class="form-item-input" placeholder="例）株式会社〇〇">
+                </div>
+                <div class="form-item">
+                    <p class="form-item-label"><span class="form-item-label-required">必須</span>氏名</p>
+                    <input type="text" class="form-item-input" placeholder="例）佐藤太郎">
+                </div>
+                <div class="form-item">
+                    <p class="form-item-label"><span class="form-item-label-required">必須</span>電話番号</p>
+                    <input type="text" class="form-item-input" placeholder="例）000-0000-0000">
+                </div>
+                <div class="form-item">
+                    <p class="form-item-label"><span class="form-item-label-required">必須</span>メールアドレス</p>
+                    <input type="email" class="form-item-input" placeholder="例）example@gmail.com">
+                </div>
+                <div class="form-item">
+                    <p class="form-item-label isMsg"><span class="form-item-label-required">必須</span>お問い合わせ内容</p>
+                    <textarea class="form-item-textarea"></textarea>
+                </div>
+                <input type="submit" class="form-btn" value="送信する">
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
