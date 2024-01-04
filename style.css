@@ -17,7 +17,6 @@
     body {
         background-image: url("door.png");
         background-repeat: no-repeat;
-        background-position: center left;
         background-attachment: fixed;
         background-size: cover;
     }    
