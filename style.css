@@ -10,6 +10,12 @@ body {
     background-size: cover;
 }
 
+@media screen and (max-width: 480px) {
+    .body {
+        background-image: url("door_phone.png");
+    }
+}
+
 header {
     background-image: url("header-flame.png");
     background-size: cover;
@@ -475,7 +481,7 @@ header {
     .form {
         position: absolute;
         left: 10px;
-        width: 250px;
+        width: 290px;
     }
 }
 
@@ -611,7 +617,7 @@ header {
     width: 280px;
     display: block;
     letter-spacing: 0.05em;
-    background: #54bda2;
+    background: #f76d6d;
     color: #fff;
     font-weight: bold;
     font-size: 20px;
