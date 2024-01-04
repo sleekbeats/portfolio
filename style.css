@@ -5,7 +5,7 @@
 
 @media only screen and (max-width: 980px) {
     body {
-        background: url("door_phone.png");
+        background: url("door_phone.png") 0 0 no-repeat;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -16,8 +16,7 @@
 
 @media only screen and (min-width: 981px) {
     body {
-        background: url("door.png");
-        background-repeat: no-repeat;
+        background: url("door.png") 0 0 no-repeat;
         background-attachment: fixed;
         background-size: cover;
     }    
