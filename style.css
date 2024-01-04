@@ -106,7 +106,7 @@ header {
 @media screen and (max-width: 480px) {
     .about-title {
         position: absolute;
-        left: 120px;
+        left: 95px;
         font-size: 4em;
     }
 }
@@ -481,7 +481,7 @@ header {
     .form {
         position: absolute;
         left: 10px;
-        width: 290px;
+        width: 330px;
     }
 }
 
