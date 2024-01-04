@@ -3,23 +3,23 @@
     margin: 0;
 }
 
-@media only screen and (max-width: 980px) {
-    body {
-        background-image: url("door_phone.png");
-        background-repeat: no-repeat;
-        background-position: center left;
-        background-attachment: fixed;
-        background-size: cover;
-    }    
+body {
+    background: none;
 }
 
-@media only screen and (min-width: 981px) {
-    body {
-        background-image: url("door.png");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-    }    
+body::before {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate3d(0, 0, -1px);
+    transform: translate3d(0, 0, -1px);
+    width: 100%;
+    height: 100vh;
+    background: url("door.png") center/cover no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 header {
