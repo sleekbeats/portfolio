@@ -9,6 +9,8 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+        width: 100%;
+        height: 100vh;
     }    
 }
 
@@ -292,7 +294,7 @@ header {
 
 @media screen and (max-width: 480px) {
     .work-title {
-        padding-left: 100px;
+        padding-left: 105px;
         font-size: 4em;
     }
 }
