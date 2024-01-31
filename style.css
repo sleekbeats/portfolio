@@ -432,7 +432,7 @@ header {
 #contact {
     position: relative;
     padding-top: 55px;
-    height: 1000px;
+    height: 850px;
     width: 100%;
 }
 
@@ -458,9 +458,9 @@ header {
     position: absolute;
     top: 290px;
     left: 850px;
-    height: 800px;
+    height: 200px;
     width: 720px;
-    background: #fff;
+    background: #66cdaa;
     border-radius: 20px;
 }
 
@@ -468,173 +468,44 @@ header {
     .contact-background {
         position: absolute;
         left: 0;
-        height: 850px;
+        height: 200px;
         width: 100%;
     }
 }
 
-.form {
+.text-background {
     position: absolute;
-    left: 45px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
-    height: 800px;
+    top: 20px;
+    left: 20px;
+    height: 160px;
+    width: 680px;
+    background: #fff;
+    border-radius: 20px;
 }
 
 @media screen and (max-width: 480px) {
-    .form {
+    .text-background {
         position: absolute;
-        left: 10px;
-        width: 330px;
+        left: 20px;
+        height: 160px;
+        width: 90%;
     }
 }
 
-.form-item {
-    border-top: 1px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-@media screen and (max-width: 480px) {
-    .form-item {
-        padding-left: 14px;
-        padding-right: 14px;
-        padding-top: 16px;
-        padding-bottom: 16px;
-        flex-wrap: wrap;
-    }
-}
-
-.form-item:nth-child(5) {
-    border-bottom: 1px solid #ddd;
-}
-
-.form-item-label {
-    width: 100%;
-    max-width: 248px;
-    letter-spacing: 0.05em;
+.mail-address {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #000;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 2em;
+    font-family: "MS Serif";
 }
 
 @media screen and (max-width: 480px) {
-    .form-item-label {
-        max-width: inherit;
-        display: flex;
-        align-items: center;
-        font-size: 15px;
-    }
-}
-
-.form-item-label.isMsg {
-    margin-top: 8px;
-    margin-bottom: auto;
-}
-
-@media screen and (max-width: 480px) {
-    .form-item-label.isMsg {
-        margin-top: 0;
-    }
-}
-
-.form-item-label-required {
-    border-radius: 6px;
-    margin-right: 8px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    width: 48px;
-    display: inline-block;
-    text-align: center;
-    background: #f76d6d;
-    color: #fff;
-    font-size: 14px;
-}
-
-@media screen and (max-width: 480px) {
-    .form-item-label-required {
-        border-radius: 4px;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        width: 32px;
-        font-size: 10px;
-    }
-}
-
-.form-item-input {
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    margin-left: 40px;
-    padding-left: 1em;
-    padding-right: 1em;
-    height: 48px;
-    flex:  1;
-    width: 100%;
-    max-width: 410px;
-    background: #eaedf2;
-    font-size: 18px;
-}
-
-@media screen and (max-width: 480px) {
-    .form-item-input {
-        margin-left: 0;
-        margin-top: 18px;
-        height: 40px;
-        flex: inherit;
-        font-size: 15px;
-    }
-}
-
-.form-item-textarea {
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    margin-left: 40px;
-    padding-left: 1em;
-    padding-right: 1em;
-    height: 216px;
-    flex: 1;
-    width: 100%;
-    max-width: 410px;
-    background: #eaedf2;
-    font-size: 18px;
-}
-
-@media screen and (max-width: 480px) {
-    .form-item-textarea {
-        margin-top: 18px;
-        margin-left: 0;
-        height: 200px;
-        flex: inherit;
-        font-size: 15px;
-    }
-}
-
-.form-btn {
-    border-radius: 6px;
-    margin-top: 32px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 280px;
-    display: block;
-    letter-spacing: 0.05em;
-    background: #f76d6d;
-    color: #fff;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-@media screen and (max-width: 480px) {
-    .form-btn {
-        margin-top: 24px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        width: 160px;
-        font-size: 16px;
+    .mail-address {
+        position: absolute;
+        top: 5px;
+        left: 5px;
     }
 }
