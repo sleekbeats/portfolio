@@ -81,8 +81,6 @@ header {
 @media screen and (max-width: 480px) {
     .name {
         position: absolute;
-        top: 150px;
-        left: 70px;
         font-size: 4.3em;
     }
 }
@@ -102,14 +100,6 @@ header {
     font-weight: bold;
     font-size: 6em;
     font-family: "MS Serif";
-}
-
-@media screen and (max-width: 480px) {
-    .about-title {
-        position: absolute;
-        left: 105px;
-        font-size: 4em;
-    }
 }
 
 #about-items {
@@ -442,67 +432,35 @@ header {
     font-family: "MS Serif";
 }
 
-@media screen and (max-width: 480px) {
-    .contact-title {
-        position: absolute;
-        left: 80px;
-        font-size: 4em;
-    }
-}
-
 .contact-background {
     position: absolute;
     top: 290px;
     left: 50%;
     transform: translate(-50%, 0);
     height: 200px;
-    width: 720px;
+    width: 85%;
     background: #e9b77e;
     border-radius: 20px;
 }
 
-@media screen and (max-width: 480px) {
-    .contact-background {
-        position: absolute;
-        left: 0;
-        height: 200px;
-        width: 100%;
-    }
-}
 
 .text-background {
     position: absolute;
     top: 20px;
-    left: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
     height: 160px;
-    width: 680px;
+    width: 90%;
     background: #fff;
     border-radius: 20px;
 }
 
-@media screen and (max-width: 480px) {
-    .text-background {
-        position: absolute;
-        left: 20px;
-        height: 160px;
-        width: 90%;
-    }
-}
-
 .mail-address {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 10%;
+    left: 10%;
     color: #000;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 5vw;
     font-family: "MS Serif";
-}
-
-@media screen and (max-width: 480px) {
-    .mail-address {
-        position: absolute;
-        top: 5px;
-        left: 5px;
-    }
 }
