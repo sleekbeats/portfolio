@@ -168,8 +168,9 @@ header {
 
 .account-name {
     position: absolute;
-    top: 173px;
-    left: 45px;
+    top: 183px;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-decoration: none;
     color: #000;
     font-weight: bold;
@@ -187,8 +188,9 @@ header {
 
 .move-text {
     position: absolute;
-    top: 173px;
-    left: 65px;
+    top: 183px;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-decoration: none;
     color: #000;
     font-weight: bold;
@@ -434,33 +436,27 @@ header {
 
 .contact-background {
     position: absolute;
-    top: 290px;
+    top: 240px;
     left: 50%;
     transform: translate(-50%, 0);
-    height: 200px;
+    height: 400px;
     width: 85%;
-    background: #e9b77e;
-    border-radius: 20px;
-}
-
-
-.text-background {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translate(-50%, 0);
-    height: 160px;
-    width: 90%;
     background: #fff;
     border-radius: 20px;
 }
 
-.mail-address {
+.text-form {
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 20px;
+    left: 50%;
+    height: 360px;
+    transform: translate(-50%, 0);
+    width: 90%;
+    border-radius: 20px;
+}
+
+.message {
+    margin: 20px 0;
     color: #000;
-    font-weight: bold;
-    font-size: 5vw;
     font-family: "MS Serif";
 }
